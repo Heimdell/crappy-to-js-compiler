@@ -1,0 +1,15 @@
+
+let
+  ; x = require "http"
+  ; cata map fold   = rec itself -> layer : fold (map itself layer)
+  ; ana  map unfold = rec itself -> seed : map itself (unfold seed)
+
+  ; pair  x y f = f x y
+  ; 1st   p     = p -> x y : x
+  ; 2nd   p     = p -> x y : y
+
+  ; left   x f g = f x
+  ; right  x f g = g x
+  ; either f g e = e f g
+  ; plus = `x => y => x + y`
+ in x.createServer
